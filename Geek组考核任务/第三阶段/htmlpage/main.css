@@ -1,0 +1,19 @@
+ #head1{
+    color: red;
+    position:relative;
+    left: 600px;
+    bottom: -375px;
+    font-size:50px
+  }
+#content{
+    color: rgba(37, 33, 33, 0.836);
+    position:absolute;
+    left: 700px;
+    top:25px;
+    font-weight:bold
+}
+
+#user{
+  background-color: rgba(18, 17, 17, 0.767);
+  color:antiquewhite;
+}
