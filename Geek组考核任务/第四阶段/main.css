@@ -1,0 +1,558 @@
+/* 创建导航栏 */
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #f9a210;
+    border-color: #f9a210;
+    border-radius: 30px;
+
+    position: sticky;
+    top: 0;
+    padding: 50px;
+    opacity: 0.9;
+    z-index: 1000;
+}
+
+li {
+    display: block;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color:#ea7f4e;
+    color: rgb(196, 199, 201);
+    border: #ea7f4e;
+    border-radius: 50px;
+   
+    
+}
+
+#block1{
+    position:absolute;
+    top: 25px;
+    
+    left: 150px;
+    
+}
+
+
+#block2{
+    position:absolute;
+    top: 25px;
+    left: 600px;
+    display: block;
+}
+#block3{
+    position:absolute;
+    top: 25px;
+    left: 950px;
+}
+#block4{
+    position:absolute;
+    top: 25px;
+    left: 1305px;
+}
+#block5{
+    position:absolute;
+    top: 25px;
+    left: 1650px;
+}
+
+
+/*第一版面*/
+#background1
+{
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#pho1
+{
+    position:absolute;
+    top: 200px;
+    left: 731px;
+    width:500px;
+    height:auto;
+}
+#pho1:hover
+{
+    width: 800px;
+    height: auto;
+    left: 600px;
+    top: 150px;
+    transition: all .5s;
+}
+
+
+
+
+/*二三四五版面边框*/
+.inset
+{
+    border-style:ridge;
+    border-radius: 15px;
+    border-width:20px;
+    margin:200px;
+    padding: 75px;
+}
+.inset:hover
+{
+    transform: scale(1.08);
+    transition: all .3s;
+    background-color:rgba(249, 242, 233, 0.39);
+}
+
+/*第二版面*/
+#dec{
+    position:absolute;
+    left: 73px;
+    top: 1436px;
+    width: 1845px;
+    height: auto;
+}
+#h2
+{
+    color:rgb(18, 18, 156);
+    font-size:2.5cm;
+    font-weight: 900;
+
+}
+#h2:hover
+{
+    transform: scale(1.4);
+    transition: all .3s;
+    
+}
+
+#pho2
+{
+    position: absolute;
+    top: 1915px;
+    left:1250px;
+}
+#pho2:hover{
+    width: 450px;
+    transition: all .3s;
+    transform: rotate(-18deg);
+}
+/*第三版面*/
+#pho3
+{
+    position: relative;
+    top: -750px;
+    left:250px
+}
+#pho3:hover{
+    width: 430px;
+    transition: all .3s;
+    transform: rotate(18deg);
+  
+}
+/*第四版面*/
+#pho4
+{
+    position:absolute;
+    top: 3680px;
+    left: 1216px;
+}
+#pho4:hover{
+    width: 450px;
+    transition: all .4s;
+    transform: rotate(18deg);
+}
+#fourth
+{
+    position: relative;
+    top:-17cm;
+}
+
+/*第五版面*/
+#fifth
+{
+    position: relative;
+    top:-17.5cm;
+}
+#pho5
+{
+    position:absolute;
+    top: 4480px;
+    left: 288px;
+}
+#pho5:hover{
+    width: 417px;
+    transition: all .3s;
+    transform: rotate(-18deg);
+}
+/*第六版面*/
+.inset-6
+{
+    border-style:solid;
+    border-radius: 15px;
+    border-width :15px;
+    margin:200px;
+    padding: 300px;
+    border-color: rgb(143, 147, 150);
+    position:relative;
+    top: -500px;
+    background-color:rgba(250, 235, 215, 0.39);
+}
+.inset-6:hover
+{
+    transform: scale(1.08);
+    transition: all .3s;
+}
+#head60
+{
+    font-size: 2cm;
+    font-weight: bold;
+    position: relative;
+    left: 300px; 
+    top: -180px;
+    color: rgba(2, 2, 2, 0.548);
+}
+#pho6/*左*/
+{
+    width: 250px;
+    height: auto;
+}
+#pho7/*中*/
+{
+    width: 250px;
+    height: auto;
+}
+#pho8/*右*/
+{
+    width: 250px;
+    height: auto;
+}
+#pho9/*蝴蝶*/
+{
+    position: relative;
+    top: 500px;
+    left: 900px;
+}
+#pho9:hover{
+    transform: scale(0.7);
+    transition: all .3s;
+    top: 350px;
+    position: relative;
+}
+#pho10/*装饰*/
+{
+    position: absolute;
+    top: -55px;
+    left: 1290px;
+    transform: rotate(180deg);
+}
+#pho11{
+    position: absolute;
+    left: 1250px;
+    top: 1397px;
+    transform: rotate(180deg);
+}
+#pho12{
+    position: absolute;
+    left:  -192px;
+    top: 1381px;
+}
+#pho13{
+    position:absolute;
+    position: absolute;
+    left:  -192px;
+    top: -88px;
+}
+#w1
+{
+    border-style:solid;
+    border-radius: 20px;
+    border-width:15px;
+    padding: 50px;
+    border-color: rgb(162, 30, 183);
+
+    font-size: 0.8cm;
+    position: relative; 
+    top: -5cm;
+    left:-150px;
+    line-height:1.5
+}
+#w1:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+}
+#w2
+{
+    border-style:solid;
+    border-radius: 20px;
+    border-width:15px;
+    padding: 50px;
+    
+    border-color: rgb(162, 30, 183);
+    font-size: 0.8cm;
+    position: relative; 
+    top: -24cm;
+    left: 25cm;
+    left: 300px;
+    line-height:1.5
+}
+#w2:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+}
+#w3
+{
+    border-style:solid;
+    border-radius: 20px;
+    border-width:15px;
+    padding: 50px;
+
+    border-color: rgb(162, 30, 183);
+    font-size: 0.8cm;
+    position: relative; 
+    top: -44cm;
+    left: 20px;
+    left: 750px;
+    line-height:1.5
+}
+#w3:hover{
+    transform: scale(1.1);
+    transition: all .3s;
+}
+#section61
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: auto;
+}
+#section62
+{
+    position: relative;
+    left: auto;
+}
+#section63
+{
+    position: relative;
+    left: auto;
+
+}
+#section64
+{
+    position: absolute;
+}
+/*第七版面*/
+.inset-7
+{
+    border-style:solid;
+    border-radius: 15px;
+    border-width :15px;
+    margin: 199px;
+    padding: 129px;
+    border-color: rgb(36, 181, 171);
+    position: relative;
+}
+
+#h7
+{
+    font-size: 2cm;
+    font-weight:500;
+    color: rgb(58, 117, 97);
+    
+}
+
+#p71
+{
+    font-size: 0.8cm;
+     
+   
+    line-height:3.5;
+}
+#p72
+{
+    font-size: 0.6cm;
+    
+    color: rgb(120, 120, 120);
+    
+    line-height:1.7;
+}
+#pho71/*变色龙*/
+{
+    position: absolute;
+    top: 8110px;
+    left: 18cm;
+    width: 1000px;
+    height: auto;
+}
+
+#pho72/*七星瓢虫*/
+{
+    position: absolute;
+    top: 8504px;
+    left: 142px;
+}
+#pho72:hover{
+    transform: scale(1.28);
+    transition: all .3s;
+}
+#pho73/*叶子*/
+{
+    position: absolute;
+    top: 205cm;
+    left: 14cm;
+}
+#pho74/*树洞*/
+{
+    position: absolute;
+    top: 202cm;
+    left: 42cm;
+    width: 250px;
+    height: auto;
+}
+#pho75/*蟋蟀*/
+{
+    position: absolute;
+    width: 350px;
+    top: 202cm;
+    left: 210px;
+    FONT-WEIGHT: 200;
+    height: auto;
+}
+
+#section71
+{
+    text-align: center; 
+}
+
+#qq{
+    position: absolute;
+    left: 37ch;
+    top: 54ch;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: #18901e;
+    padding: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 16px;
+    z-index: 1000;
+}
+#qq:hover{
+    transform: scale(1.18);
+    transition: all .3s;
+}
+#em{
+    position: absolute;
+    left: 52ch;
+    top: 54ch;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: #18901e;
+    padding: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 16px;
+    z-index: 1000;
+}
+#em:hover{
+    transform: scale(1.18);
+    transition: all .3s;
+}
+#github{
+    position: absolute;
+    left: 64ch;
+    top: 54ch;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0px;
+    background-color: #18901e;
+    padding: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 16px;
+    z-index: 1000;
+}
+#github:hover{
+    transform: scale(1.18);
+    transition: all .3s;
+}
+/*第八版面*/
+#inset-8
+{
+    border-style:solid;
+    border-radius: 15px;
+    border-width :15px;
+    margin:200px;
+    padding: 0px;
+    border-color: rgb(23, 117, 223);
+    background-image:url(https://github.com/Milefer7/geek_website.github.io/blob/main/background_QA.png?raw=true) ;
+    background-size: 100%;
+}
+#bg81
+{
+    width:100%; 
+    height:20%;
+}
+
+#div8
+{
+    text-align: center; 
+}
+
+
+
+.a{
+    display: inline;
+    color:rgb(0, 0, 0);
+    font-weight:400 ;
+    font-size: 0.8cm;
+    line-height: 2.5;
+    text-decoration:none;
+    padding-bottom: 100px;
+}
+
+.a:hover
+{
+    font-size: 1cm;
+    color: rgb(83, 81, 81);
+    transition: all .4s;
+}   
+.b
+{
+    display: none;
+}
+.a:hover+.b 
+{
+    display: block;
+    color:rgb(255, 255, 255);
+    font-weight:400 ;
+    font-size: 0.8cm;
+    line-height: 1.2;
+    text-decoration:none;
+
+    border-style:groove;
+    border-radius: 20px;
+    border-width:5px;
+    padding: 15px;
+    border-color: rgb(98, 159, 244, 0.589);
+    background-color: rgba(98, 159, 244, 0.589);
+    transition: all .7s;
+}
+
+.bottom{
+    position:absolute;
+    bottom: 50px;
+}
