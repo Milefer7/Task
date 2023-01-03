@@ -23,3 +23,4 @@
 
 ## 阶段五
 * python学习[点击跳转](https://github.com/Milefer7/Task/blob/master/Geek%E7%BB%84%E8%80%83%E6%A0%B8%E4%BB%BB%E5%8A%A1/%E7%AC%AC%E4%BA%94%E9%98%B6%E6%AE%B5/python%E7%AC%94%E8%AE%B0.md)
+ * ***目前pathon学习（爬虫实战）还有未完善的地方，在阶段六会补充完整。***
